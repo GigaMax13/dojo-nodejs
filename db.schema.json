@@ -1,0 +1,9 @@
+{
+  "books": {
+    "id": {
+      "name": "",
+      "genre": "",
+      "authorID": ""
+      }
+  }
+}
