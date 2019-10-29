@@ -1,11 +1,11 @@
-const { config } = require('dotenv');
-const express = require('express');
-const helmet = require('helmet');
-const cors = require('cors');
-const bodyParser = require('body-parser');
-const compression = require('compression');
+import { config } from 'dotenv';
+import express from 'express';
+import helmet from 'helmet';
+import cors from 'cors';
+import bodyParser from 'body-parser';
+import compression from 'compression';
 
-const Books = require('./routes/Books');
+import Authors from './routes/Authors';
 
 config();
 
@@ -30,7 +30,7 @@ app.get(['/', '/status'], (req, res) => {
   res.send('ok');
 });
 
-app.use('/books', Books);
+app.use('/authors', Authors);
 
 app.all('*', (req, res) => {
   res.status(404).send({
@@ -40,5 +40,6 @@ app.all('*', (req, res) => {
 });
 
 app.listen(PORT, () => {
+  // eslint-disable-next-line no-console
   console.log(`Server started on port ${PORT}`);
 });
