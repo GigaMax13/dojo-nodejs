@@ -1,0 +1,16 @@
+{
+  "authors": {
+    "4968bcf5-cc6e-37fa-960f-dffee4f35554": {
+      "id": "4968bcf5-cc6e-37fa-960f-dffee4f35554",
+      "name": "Stephen King",
+      "genre": "Horror",
+      "nationality": "United States of America"
+    },
+    "4949e0ba-9d70-3326-b497-5d2af9e9d0d3": {
+      "id": "4949e0ba-9d70-3326-b497-5d2af9e9d0d3",
+      "name": "J. R. R. Tolkien",
+      "genre": "Fantasy",
+      "nationality": "British"
+    }
+  }
+}

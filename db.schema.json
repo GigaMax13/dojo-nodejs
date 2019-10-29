@@ -1,9 +1,19 @@
 {
-  "books": {
+  "authors": {
     "id": {
+      "id": "",
       "name": "",
       "genre": "",
-      "authorID": ""
-      }
+      "nationality": ""
+    }
+  },
+  "books": {
+    "id": {
+      "id": "",
+      "name": "",
+      "genre": "",
+      "authorID": "",
+      "releaseDate": ""
+    }
   }
 }
