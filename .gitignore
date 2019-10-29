@@ -1,7 +1,4 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
-# Local DB
-db.json
-
 # IDE's
 .idea/
 
@@ -55,7 +52,7 @@ build/Release
 .yarn-integrity
 
 # Local Env Variables
-.env
+#.env
 
 # Package lock
 package-lock.json
